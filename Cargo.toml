@@ -4,8 +4,4 @@ members = ["crates/*"]
 
 [workspace.dependencies]
 egui = "0.36"
-bevy_egui = "0.41.1"
-
-[patch.crates-io]
-# https://github.com/vladbat00/bevy_egui/pull/493
-bevy_egui = { git = "https://github.com/kisya-games/bevy_egui", branch = "egui-0.36" }
+bevy_egui = "0.42"
